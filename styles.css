@@ -1,6 +1,6 @@
 :root{
   ---primary-color:#FAAD80;
-  ---primary-btn-color: #EB92BE;
+  ---primary-btn-color: #ECAC5D;
 }
 body{
   background-color: var(---primary-color);
@@ -38,11 +38,16 @@ label{
 #btn{
   margin: auto;
   display: block;
-  background: transparent;
+  border:1px solid white;
   background-color:var(---primary-btn-color);
   border-width: medium;
   padding: 0.5rem;
   border-radius: 0.5rem;
+  cursor: pointer;
+  font-family: cursive;
+}
+#btn:hover{
+  background-color: var(---primary-color);
 }
 #output{
   text-align: center;
