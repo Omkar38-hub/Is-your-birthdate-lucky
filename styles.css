@@ -1,0 +1,66 @@
+:root{
+  ---primary-color:#FAAD80;
+  ---primary-btn-color: #EB92BE;
+}
+body{
+  background-color: var(---primary-color);
+  margin: 0;
+  font-family: cursive;
+  color: #262A53;
+
+}
+#heading{
+  margin:10% 0 2%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
+.container{
+  width: 20%;
+  margin: auto;
+
+}
+label{
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+#dob-input,#lucky-input{
+  display: block;
+  margin:3% auto 5%;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: transparent;
+  font-size: large;
+  outline: none;
+}
+
+#btn{
+  margin: auto;
+  display: block;
+  background: transparent;
+  background-color:var(---primary-btn-color);
+  border-width: medium;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+#output{
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.footer-class{
+  margin : 10% auto 3%;
+  text-align: center;
+}
+.links{
+  margin: 1% 1% 0;
+}
+.copywrite{
+  padding: 0 0 1rem;
+}
+img{
+  display: inline;
+  width: 1rem;
+  height:1%;
+}
